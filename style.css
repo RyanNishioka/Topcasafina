@@ -1,0 +1,97 @@
+#paineis-sobre {
+    margin-top: 20px;
+}
+
+html, body {
+    height: 100%;
+}
+
+header {
+    background-image: url(img/castelo.jpg);
+    background-size: cover;
+    background-position: top center;
+    height: 100%;
+}
+
+.titulo-depoimentos{
+    background-color: #0275D8;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #FFFFFF;
+    margin-bottom: 0;
+    font-size: 28px;
+}
+
+.grupo-radio{
+    width: 50%;
+    display: inline-block;
+}
+
+.contato-select, .grupo-radio{
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 16px;
+}
+
+.grupo-radio .radio:first-child {
+    margin-top: 0;
+}
+
+footer {
+    background-color: #333;
+    color: #FFFFFF;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+footer address:last-child {
+    margin-bottom: 0;
+}
+
+.topcasafina-banner {
+    color: #FFFFFF;
+    background-color: rgba(0, 0, 0, .8);
+    border-radius: 10px;
+    padding: 20px;
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 500ms;
+}
+
+header h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+@media(min-width: 768px){
+
+    #depoimentos h2 {
+        width: 100%;
+    }
+
+    #sobre-nos{
+        margin-bottom: 20px;
+    }
+
+    #paineis-sobre{
+        margin-top: 0;
+    }
+}
+
+@media(min-width: 992px){
+    .topcasafina-banner {
+        left: 0;
+        transform: translate(0, -80%);
+        width: 50%;
+    }
+
+    .topcasafina-bannerWrapper{
+        position: relative;
+        height: 100%;
+    }
+}
+
